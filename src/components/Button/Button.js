@@ -1,8 +1,7 @@
 import './Button.css'
 
-const Button = (props) => {
-    console.log(props)
-    return <button onClick={props.handleClick}>{props.children}</button>
+const Button = ({handleClick, children, otroComponent}) => {
+    return <button onClick={handleClick}>{children}{otroComponent}</button>
 }
 
 export default Button
