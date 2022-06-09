@@ -7,6 +7,7 @@ const ItemListContainer = (props) => {
     const [products, setProducts] = useState([])
     const [loading, setLoading] = useState(true)
 
+    //Este id proviene de la url
     const { categoryId } = useParams()
 
 
