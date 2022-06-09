@@ -6,6 +6,7 @@ import { useParams } from 'react-router-dom'
 const ItemDetailContainer = () => {
     const [product, setProduct] = useState()
 
+     //Este id proviene de la url
     const { productId } = useParams()
 
     useEffect(() => {
