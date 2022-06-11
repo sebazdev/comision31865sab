@@ -26,7 +26,8 @@ const Counter = ({initial, stock, onAdd}) => {
     }, [count])
 
 
-    const decrement = () => {
+    const decrement = (e) => {
+        console.log(e)
         setCount(prev => prev - 1)
     }
 

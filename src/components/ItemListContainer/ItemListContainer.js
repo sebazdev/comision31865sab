@@ -10,6 +10,18 @@ const ItemListContainer = (props) => {
     //Este id proviene de la url
     const { categoryId } = useParams()
 
+    
+    useEffect(() => {
+        const onResize = () => {
+            console.log('cambio tamaño')
+        }
+
+        window.addEventListener('resize', onResize)
+
+        return () => {
+            window.removeEventListener('resize', onResize)
+        }
+    }, [])
 
     useEffect(() => {
         setLoading(true)
@@ -39,7 +51,7 @@ const ItemListContainer = (props) => {
     }
 
     return(
-        <div>
+        <div onClick={() => console.log('hice click en itemlistcontainer')}>
             <h1>{props.greeting}</h1>
             {products.length > 0 
                 ? <ItemList products={products}/>
