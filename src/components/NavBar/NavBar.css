@@ -47,7 +47,7 @@
     /* TODO */
     width: auto;
     padding: 12px;
-    font-size: 14px;
+    font-size: 8px;
     background: blue;
     border-radius: 8px;
     flex: none;
@@ -63,8 +63,4 @@
     border-style: none;
     cursor: pointer;
     outline: inherit;
-  }
-  
-  .NavLink {
-    color :rgb(255, 0, 0)
   }
