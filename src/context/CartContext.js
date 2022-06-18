@@ -31,6 +31,9 @@ export const CartProvider = ({ children }) => {
         return cart.some(prod => prod.id === id)
     }
 
+    const clearCart = () => {
+        setCart([])
+    }
     // const getCartQuantity = () => {
     //     let totalQuantity = 0
 
@@ -48,6 +51,7 @@ export const CartProvider = ({ children }) => {
             addItem,
             removeItem,
             isInCart,
+            clearCart
             // getCartQuantity
         }}>
             { children }
