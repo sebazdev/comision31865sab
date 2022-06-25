@@ -1,5 +1,4 @@
 import { useState, useEffect} from 'react'
-import { getProductById } from '../../asyncmock'
 import ItemDetail from '../ItemDetail/ItemDetail'
 import { useParams } from 'react-router-dom'
 
@@ -10,7 +9,6 @@ const ItemDetailContainer = () => {
     const [product, setProduct] = useState()
     const [loading, setLoading] = useState(true)
 
-     //Este id proviene de la url
     const { productId } = useParams()
 
     useEffect(() => {
@@ -25,10 +23,6 @@ const ItemDetailContainer = () => {
         }).finally(() => {
             setLoading(false)
         })
-
-        // getProductById(productId).then(response => {
-        //     setProduct(response)
-        // })
     }, [productId])
 
     if(loading) {

@@ -1,54 +1,21 @@
-# Getting Started with Create React App
+# Comision 31865
 
-Ecommerce...
+## Running Locally
 
-## Comandos para ejecutar la app
+```bash
+$ git clone https://github.com/szuviria/comision31865sab.git
+$ cd zuvcommerce
+$ npm install
+$ npm start
+```
 
-In the project directory, you can run:
+## Environment Variables
 
-### `clone`
+See [`.env.example`](https://github.com/szuviria/comision31865sab/blob/main/.env.example) for an example.
 
-Se debe clonar el repositorio
+## Built Using
 
-### `npm install`
+- [Create-React-App](https://create-react-app.dev/)
+- [Firebase](https://firebase.com)
 
-Instalar dependencias
-### `npm start`
-
-Ejecutar el servidor de desarrollo
-
-
-
-
-
-
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Test App 
